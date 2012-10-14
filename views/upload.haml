@@ -1,0 +1,10 @@
+%form{action: "/upload", method: 'post', enctype: "multipart/form-data"}
+  %div
+    %label Title
+    %input{type: "text", name: 'title'}
+  %div
+  %label Select a file
+  %input{type: 'file', name: 'uploaded_file'}
+  
+  %div
+    %input{type: "submit", value: "Upload your PDF file"} 
